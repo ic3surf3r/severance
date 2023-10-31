@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url(components/hero.css);
+@import url(components/content.css);
+@import url(components/footer.css);
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  background-color: #284B63;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+}
